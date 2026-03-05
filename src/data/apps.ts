@@ -6,6 +6,7 @@ export interface App {
   url: string;
   tags: string[];
   gradient: string;
+  screenshot?: string;
 }
 
 export const apps: App[] = [
@@ -18,6 +19,7 @@ export const apps: App[] = [
     url: "https://2026-03-05-defi-ai-scout.vercel.app",
     tags: ["DeFi", "AI", "Web3"],
     gradient: "from-blue-600 via-cyan-500 to-teal-400",
+    screenshot: "/screenshots/defi-ai-scout.png",
   },
   {
     id: "contract-scan-ai",
@@ -28,6 +30,7 @@ export const apps: App[] = [
     url: "https://2026-03-05-contract-scan-ai.vercel.app",
     tags: ["Security", "AI", "Web3", "Solidity"],
     gradient: "from-purple-600 via-violet-500 to-pink-500",
+    screenshot: "/screenshots/contract-scan-ai.png",
   },
 ];
 

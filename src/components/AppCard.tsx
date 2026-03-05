@@ -41,17 +41,25 @@ export default function AppCard({ app }: { app: App }) {
   return (
     <div className="bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col overflow-hidden">
       {/* Thumbnail */}
-      <div
-        className="h-32 flex items-center justify-center flex-shrink-0"
-        style={{ background: thumbStyle.bg }}
-      >
-        <span
-          className="text-3xl font-bold tracking-widest select-none"
-          style={{ color: thumbStyle.text, opacity: 0.9 }}
+      {app.screenshot ? (
+        <img
+          src={app.screenshot}
+          alt={app.name}
+          className="w-full h-48 object-cover object-top flex-shrink-0"
+        />
+      ) : (
+        <div
+          className="h-48 flex items-center justify-center flex-shrink-0"
+          style={{ background: thumbStyle.bg }}
         >
-          {getInitials(app.name)}
-        </span>
-      </div>
+          <span
+            className="text-3xl font-bold tracking-widest select-none"
+            style={{ color: thumbStyle.text, opacity: 0.9 }}
+          >
+            {getInitials(app.name)}
+          </span>
+        </div>
+      )}
 
       {/* Body */}
       <div className="p-5 flex flex-col flex-1 gap-3">
