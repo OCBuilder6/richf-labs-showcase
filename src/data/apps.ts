@@ -32,6 +32,17 @@ export const apps: App[] = [
     gradient: "from-purple-600 via-violet-500 to-pink-500",
     screenshot: "/screenshots/contract-scan-ai.png",
   },
+  {
+    id: "agentguard",
+    name: "AgentGuard",
+    date: "2026-03-05",
+    description:
+      "Monitor, decode, and risk-score every transaction your AI agents make on-chain. Built for the era where AI executes on your behalf.",
+    url: "https://2026-03-05-ai-agent-wallet-guard-v2.vercel.app",
+    tags: ["AI Agents", "Web3", "Security", "Wallet"],
+    gradient: "from-emerald-500 to-teal-400",
+    screenshot: "/screenshots/agentguard.png",
+  },
 ];
 
 export function getStats() {
