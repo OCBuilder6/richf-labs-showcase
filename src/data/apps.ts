@@ -52,6 +52,7 @@ export const apps: App[] = [
     url: "https://2026-03-06-chain-alpha.vercel.app",
     tags: ["KOL", "AI", "Web3", "Analytics"],
     gradient: "from-orange-500 via-red-500 to-pink-500",
+    screenshot: "/screenshots/chain-alpha.png",
   },
   {
     id: "yield-atlas",
@@ -62,6 +63,7 @@ export const apps: App[] = [
     url: "https://2026-03-07-yield-atlas.vercel.app",
     tags: ["DeFi", "Yield", "Web3", "Analytics"],
     gradient: "from-yellow-400 via-orange-500 to-red-500",
+    screenshot: "/screenshots/yield-atlas.png",
   },
   {
     id: "agent-pulse",
@@ -72,6 +74,7 @@ export const apps: App[] = [
     url: "https://2026-03-08-agent-pulse.vercel.app",
     tags: ["AI", "Web3", "DeFi", "Analytics"],
     gradient: "from-violet-600 via-purple-500 to-indigo-500",
+    screenshot: "/screenshots/agent-pulse.png",
   },
   {
     id: "token-safety",
@@ -82,6 +85,7 @@ export const apps: App[] = [
     url: "https://2026-03-09-token-safety.vercel.app",
     tags: ["Security", "AI", "Web3", "DeFi"],
     gradient: "from-red-500 via-rose-500 to-pink-500",
+    screenshot: "/screenshots/token-safety.png",
   },
   {
     id: "gov-pulse",
@@ -92,6 +96,7 @@ export const apps: App[] = [
     url: "https://gov-pulse-rho.vercel.app",
     tags: ["DAO", "Governance", "AI", "Web3"],
     gradient: "from-indigo-600 via-violet-500 to-purple-500",
+    screenshot: "/screenshots/gov-pulse.png",
   },
 ];
 
