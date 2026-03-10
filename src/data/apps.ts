@@ -43,6 +43,56 @@ export const apps: App[] = [
     gradient: "from-emerald-500 to-teal-400",
     screenshot: "/screenshots/agentguard.png",
   },
+  {
+    id: "chain-alpha",
+    name: "Chain Alpha",
+    date: "2026-03-06",
+    description:
+      "Live on-chain KOL verification. Tracks 2,800+ crypto influencers, scores their calls against real trade outcomes, and surfaces who actually delivers alpha.",
+    url: "https://2026-03-06-chain-alpha.vercel.app",
+    tags: ["KOL", "AI", "Web3", "Analytics"],
+    gradient: "from-orange-500 via-red-500 to-pink-500",
+  },
+  {
+    id: "yield-atlas",
+    name: "Yield Atlas",
+    date: "2026-03-07",
+    description:
+      "Live DeFi yield intelligence across 19,000+ pools on 100+ chains. Risk-scores every opportunity by TVL, chain, and protocol safety.",
+    url: "https://2026-03-07-yield-atlas.vercel.app",
+    tags: ["DeFi", "Yield", "Web3", "Analytics"],
+    gradient: "from-yellow-400 via-orange-500 to-red-500",
+  },
+  {
+    id: "agent-pulse",
+    name: "Agent Pulse",
+    date: "2026-03-08",
+    description:
+      "Live AI token momentum tracker. Pulls real-time data from CoinGecko, scores 50+ AI agent tokens by momentum (price + volume + ATH distance), and delivers GPT-4o-mini analysis on demand.",
+    url: "https://2026-03-08-agent-pulse.vercel.app",
+    tags: ["AI", "Web3", "DeFi", "Analytics"],
+    gradient: "from-violet-600 via-purple-500 to-indigo-500",
+  },
+  {
+    id: "token-safety",
+    name: "TokenSafe",
+    date: "2026-03-09",
+    description:
+      "AI-powered token security scanner. Paste any ERC-20 or BSC contract address and get instant honeypot detection, rug pull risk scoring, tax analysis, and plain-English AI verdict.",
+    url: "https://2026-03-09-token-safety.vercel.app",
+    tags: ["Security", "AI", "Web3", "DeFi"],
+    gradient: "from-red-500 via-rose-500 to-pink-500",
+  },
+  {
+    id: "gov-pulse",
+    name: "GovPulse",
+    date: "2026-03-10",
+    description:
+      "AI-powered DAO governance intelligence. Browse live proposals from Uniswap, Aave, Compound, and 500+ DAOs via Snapshot.org. Get instant AI summaries that explain what you're voting on in plain English.",
+    url: "https://gov-pulse-rho.vercel.app",
+    tags: ["DAO", "Governance", "AI", "Web3"],
+    gradient: "from-indigo-600 via-violet-500 to-purple-500",
+  },
 ];
 
 export function getStats() {
