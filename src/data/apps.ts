@@ -98,6 +98,18 @@ export const apps: App[] = [
     gradient: "from-indigo-600 via-violet-500 to-purple-500",
     screenshot: "/screenshots/gov-pulse.png",
   },
+  {
+    id: "change-radar",
+    name: "ChangeRadar",
+    date: "2026-03-11",
+    description:
+      "AI-powered changelog monitoring for dev teams. Tracks releases from Next.js, Stripe, OpenAI, Supabase, and more — classifying every update as Security, Breaking, Feature, or Minor before it hits production.",
+    url: "https://2026-03-11-change-radar.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-11-change-radar",
+    tags: ["DevOps", "AI", "Developer Tools", "SaaS"],
+    gradient: "from-indigo-600 via-blue-500 to-cyan-500",
+    screenshot: "/screenshots/change-radar.png",
+  },
 ];
 
 export function getStats() {
