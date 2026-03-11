@@ -4,6 +4,7 @@ export interface App {
   date: string;
   description: string;
   url: string;
+  repoUrl?: string;
   tags: string[];
   gradient: string;
   screenshot?: string;
