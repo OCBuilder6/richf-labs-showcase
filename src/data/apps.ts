@@ -111,6 +111,18 @@ export const apps: App[] = [
     gradient: "from-indigo-600 via-blue-500 to-cyan-500",
     screenshot: "/screenshots/change-radar.png",
   },
+  {
+    id: "interview-iq",
+    name: "InterviewIQ",
+    date: "2026-03-12",
+    description:
+      "AI interview coaching for the era of AI screening. Practice role-specific mock interviews with real-time STAR scoring, keyword alignment analysis, and live insights on what skills employers are actually hiring for.",
+    url: "https://2026-03-12-interview-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-12-interview-iq",
+    tags: ["AI", "Career", "SaaS", "HR Tech"],
+    gradient: "from-indigo-600 via-violet-500 to-purple-500",
+    screenshot: "/screenshots/interview-iq.png",
+  },
 ];
 
 export function getStats() {

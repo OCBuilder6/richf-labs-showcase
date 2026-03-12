@@ -73,6 +73,17 @@ export default function Home() {
           <span className="text-sm text-gray-400">
             Built fresh. Shipped daily.
           </span>
+          <span className="text-xs text-gray-300">
+            Built by{" "}
+            <a
+              href="https://www.linkedin.com/in/benjamincoste/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-500 transition-colors underline underline-offset-2"
+            >
+              Benjamin Coste
+            </a>
+          </span>
         </div>
       </footer>
     </main>
