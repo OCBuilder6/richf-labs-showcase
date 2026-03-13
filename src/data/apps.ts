@@ -123,6 +123,18 @@ export const apps: App[] = [
     gradient: "from-indigo-600 via-violet-500 to-purple-500",
     screenshot: "/screenshots/interview-iq.png",
   },
+  {
+    id: "pr-sentinel",
+    name: "PRSentinel",
+    date: "2026-03-13",
+    description:
+      "AI-powered pull request security guard. Catches OWASP Top 10 vulnerabilities, hardcoded secrets, SQL injection, and dangerous AI-generated code patterns before they reach production.",
+    url: "https://2026-03-13-pr-sentinel.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-13-pr-sentinel",
+    tags: ["Security", "AI", "DevOps", "SaaS"],
+    gradient: "from-violet-600 via-purple-500 to-indigo-500",
+    screenshot: "/screenshots/pr-sentinel.png",
+  },
 ];
 
 export function getStats() {
