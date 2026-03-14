@@ -12,6 +12,18 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-14-tariff-lens",
+    name: "TariffLens",
+    date: "2026-03-14",
+    description:
+      "Import cost intelligence for modern businesses. Calculate landed costs in seconds — factoring in HTS duties, Section 301 tariffs, MPF, broker fees, and freight. Stop guessing your margins.",
+    url: "https://2026-03-14-tariff-lens.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-14-tariff-lens",
+    tags: ["Trade", "Supply Chain", "B2B SaaS", "Finance"],
+    gradient: "from-blue-600 via-blue-500 to-cyan-500",
+    screenshot: "/screenshots/2026-03-14-tariff-lens.png",
+  },
+  {
     id: "defi-ai-scout",
     name: "DeFi AI Scout",
     date: "2026-03-05",
