@@ -12,6 +12,18 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-15-align-ai",
+    name: "Align AI",
+    date: "2026-03-15",
+    description:
+      "EU AI Act compliance intelligence. Answer 5 questions about your AI system to get instant risk classification, obligation mapping, and downloadable compliance documentation — in minutes, not months.",
+    url: "https://2026-03-15-align-ai.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-15-align-ai",
+    tags: ["Compliance", "AI", "Legal Tech", "B2B SaaS"],
+    gradient: "from-violet-600 via-purple-600 to-indigo-600",
+    screenshot: "/screenshots/2026-03-15-align-ai.png",
+  },
+  {
     id: "2026-03-14-tariff-lens",
     name: "TariffLens",
     date: "2026-03-14",
