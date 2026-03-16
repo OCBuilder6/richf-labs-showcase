@@ -12,6 +12,18 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-16-privacy-map",
+    name: "PrivacyMap",
+    date: "2026-03-16",
+    description:
+      "Global data privacy compliance navigator. Answer 5 questions about your business and instantly map every applicable regulation — GDPR, CCPA, Canada's Bill C-22, LGPD, and 30+ more — with plain-English obligation breakdowns and fine exposure.",
+    url: "https://2026-03-16-privacy-map.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-16-privacy-map",
+    tags: ["Privacy", "Compliance", "Legal Tech", "B2B SaaS"],
+    gradient: "from-violet-600 via-purple-600 to-indigo-600",
+    screenshot: "/screenshots/2026-03-16-privacy-map.png",
+  },
+  {
     id: "2026-03-15-align-ai",
     name: "Align AI",
     date: "2026-03-15",
