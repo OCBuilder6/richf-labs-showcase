@@ -12,6 +12,18 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-17-code-mind",
+    name: "CodeMind",
+    date: "2026-03-17",
+    description:
+      "AI code comprehension for the AI-generated code era. Paste any function and get an instant plain-English breakdown — purpose, data flow, execution path, complexity score, and issue detection. Runs entirely in your browser.",
+    url: "https://2026-03-17-code-mind.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-17-code-mind",
+    tags: ["AI", "Developer Tools", "SaaS", "Code Review"],
+    gradient: "from-violet-600 via-purple-500 to-indigo-500",
+    screenshot: "/screenshots/2026-03-17-code-mind.png",
+  },
+  {
     id: "2026-03-16-privacy-map",
     name: "PrivacyMap",
     date: "2026-03-16",
