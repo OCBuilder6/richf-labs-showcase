@@ -172,6 +172,18 @@ export const apps: App[] = [
     screenshot: "/screenshots/interview-iq.png",
   },
   {
+    id: "agent-audit",
+    name: "AgentAudit",
+    date: "2026-03-18",
+    description:
+      "The control plane for AI agents in production. Monitor costs in real time, catch runaway loops, audit every decision for compliance, and get AI-powered optimization recommendations. Includes an interactive cost calculator across all major LLM providers.",
+    url: "https://2026-03-18-agent-audit.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-18-agent-audit",
+    tags: ["AI", "DevOps", "Observability", "SaaS"],
+    gradient: "from-blue-600 via-blue-500 to-cyan-400",
+    screenshot: "/screenshots/agent-audit.png",
+  },
+  {
     id: "pr-sentinel",
     name: "PRSentinel",
     date: "2026-03-13",
