@@ -12,6 +12,18 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-19-stack-audit",
+    name: "StackAudit",
+    date: "2026-03-19",
+    description:
+      "SaaS stack optimizer for ops and finance teams. Add your tools, instantly detect overlapping software, see spend by category, and get a prioritized consolidation playbook. Cut SaaS waste by up to 40% in under 20 minutes.",
+    url: "https://2026-03-19-stack-audit.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-19-stack-audit",
+    tags: ["SaaS", "Finance", "Operations", "B2B SaaS"],
+    gradient: "from-violet-600 via-purple-500 to-indigo-600",
+    screenshot: "/screenshots/2026-03-19-stack-audit.png",
+  },
+  {
     id: "2026-03-17-code-mind",
     name: "CodeMind",
     date: "2026-03-17",
