@@ -12,6 +12,18 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-20-geo-pulse",
+    name: "GeoPulse",
+    date: "2026-03-20",
+    description:
+      "Geopolitical risk intelligence for operations and finance teams. Track live risk scores across 6 global conflict zones, monitor real-time oil and gas prices, and calculate exactly how much the Iran conflict costs your business — in dollars. Includes a supply chain exposure calculator with sector-specific mitigation playbooks.",
+    url: "https://2026-03-20-geo-pulse.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-20-geo-pulse",
+    tags: ["Risk Intelligence", "Supply Chain", "Finance", "B2B SaaS"],
+    gradient: "from-orange-500 via-red-500 to-rose-600",
+    screenshot: "/screenshots/2026-03-20-geo-pulse.png",
+  },
+  {
     id: "2026-03-19-stack-audit",
     name: "StackAudit",
     date: "2026-03-19",
