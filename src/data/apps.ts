@@ -12,6 +12,16 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "contract-lens",
+    date: "2026-03-21",
+    name: "ContractLens",
+    description: "Instantly analyze any contract for hidden risks, key obligations, payment terms, and red flags — before you sign. Detects 12+ clause types including non-competes, auto-renewals, indemnification, and arbitration. 100% browser-only privacy.",
+    url: "https://2026-03-21-contract-lens.vercel.app",
+    tags: ["Legal Tech", "Contract Analysis", "B2B SaaS", "SMB"],
+    gradient: "from-violet-500 to-purple-600",
+    screenshot: "/screenshots/contract-lens.png",
+  },
+  {
     id: "2026-03-20-geo-pulse",
     name: "GeoPulse",
     date: "2026-03-20",
