@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-23-retain-iq",
+    date: "2026-03-23",
+    name: "RetainIQ",
+    description: "Stop churn before it starts. RetainIQ scores every customer account in real time, flags churn risk 90 days early, and gives CS teams AI-generated intervention playbooks to save revenue.",
+    url: "https://2026-03-23-retain-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-23-retain-iq",
+    tags: ["B2B SaaS", "Customer Success", "AI", "Churn Prevention"],
+    gradient: "from-violet-600 via-violet-500 to-purple-500",
+    screenshot: "/screenshots/2026-03-23-retain-iq.png",
+  },
+  {
     id: "2026-03-22-spend-sense",
     date: "2026-03-22",
     name: "SpendSense",
