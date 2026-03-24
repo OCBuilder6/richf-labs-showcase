@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-24-grant-scout",
+    date: "2026-03-24",
+    name: "Grant Scout",
+    description: "AI-powered grant discovery for nonprofits and research orgs. With federal funding cuts reshaping philanthropy in 2026, Grant Scout matches your organization profile to thousands of private foundation grants with AI scoring and deadline tracking.",
+    url: "https://2026-03-24-grant-scout.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-24-grant-scout",
+    tags: ["Nonprofit", "AI", "Grants", "Funding", "Research"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-03-24-grant-scout.png",
+  },
+  {
     id: "2026-03-23-retain-iq",
     date: "2026-03-23",
     name: "RetainIQ",
