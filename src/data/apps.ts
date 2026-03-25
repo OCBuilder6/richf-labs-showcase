@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-25-meet-mind",
+    date: "2026-03-25",
+    name: "MeetMind",
+    description: "Stop losing what got decided. Paste raw meeting notes and get structured summaries, action items with owners, key decisions, tone analysis, and a ready-to-send follow-up email — instantly, in your browser.",
+    url: "https://2026-03-25-meet-mind.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-25-meet-mind",
+    tags: ["Productivity", "Meetings", "AI", "SaaS", "Teams"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-03-25-meet-mind.png",
+  },
+  {
     id: "2026-03-24-grant-scout",
     date: "2026-03-24",
     name: "Grant Scout",
