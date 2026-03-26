@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-26-model-index",
+    date: "2026-03-26",
+    name: "ModelIndex",
+    description: "AI model intelligence platform for engineering teams. Compare live benchmarks (MMLU, HumanEval, ARC-AGI-3), real-time pricing across providers, and run side-by-side prompt comparisons to pick the right model every time.",
+    url: "https://2026-03-26-model-index.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-26-model-index",
+    tags: ["AI", "Developer Tools", "B2B SaaS", "Benchmarks", "LLM"],
+    gradient: "from-indigo-500 to-violet-700",
+    screenshot: "/screenshots/2026-03-26-model-index.png",
+  },
+  {
     id: "2026-03-25-meet-mind",
     date: "2026-03-25",
     name: "MeetMind",
