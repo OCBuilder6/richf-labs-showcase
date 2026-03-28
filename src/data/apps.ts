@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-28-call-coach",
+    date: "2026-03-28",
+    name: "CallCoach",
+    description: "AI-powered sales call intelligence platform. Paste any transcript and get instant coaching — talk ratio analysis, 6-dimension scoring (discovery, objection handling, closing), personalized strengths/improvements, and specific next steps. No more random call reviews.",
+    url: "https://2026-03-28-call-coach.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-28-call-coach",
+    tags: ["Sales", "AI", "B2B SaaS", "Coaching", "Revenue"],
+    gradient: "from-blue-500 to-blue-700",
+    screenshot: "/screenshots/2026-03-28-call-coach.png",
+  },
+  {
     id: "2026-03-27-agent-cost",
     date: "2026-03-27",
     name: "AgentCost",
