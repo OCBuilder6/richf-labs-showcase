@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-29-vendor-watch",
+    date: "2026-03-29",
+    name: "VendorWatch",
+    description: "SaaS vendor risk intelligence platform. Monitor the financial health, security posture, and reliability of every vendor in your stack. AI-powered risk scoring across 5 dimensions with real-time alerts before a surprise bankruptcy, breach, or outage hits your business.",
+    url: "https://2026-03-29-vendor-watch.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-29-vendor-watch",
+    tags: ["Risk", "AI", "B2B SaaS", "Security", "Compliance"],
+    gradient: "from-indigo-500 to-indigo-700",
+    screenshot: "/screenshots/vendor-watch.png",
+  },
+  {
     id: "2026-03-28-call-coach",
     date: "2026-03-28",
     name: "CallCoach",
