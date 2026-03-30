@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-30-compete-iq",
+    date: "2026-03-30",
+    name: "CompeteIQ",
+    description: "AI-powered competitive intelligence on autopilot. Enter any company and get instant intel reports: recent strategic moves, pricing intelligence, SWOT analysis, and a strategic verdict. For B2B product teams, founders, and marketing leaders who need to know every move competitors make — without manual research.",
+    url: "https://2026-03-30-compete-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-30-compete-iq",
+    tags: ["AI", "Competitive Intelligence", "B2B SaaS", "Sales", "Strategy"],
+    gradient: "from-violet-500 to-indigo-600",
+    screenshot: "/screenshots/2026-03-30-compete-iq.png",
+  },
+  {
     id: "2026-03-29-vendor-watch",
     date: "2026-03-29",
     name: "VendorWatch",
