@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-03-31-churnsignal",
+    date: "2026-03-31",
+    name: "ChurnSignal",
+    description: "AI-powered customer churn prediction platform. Flags at-risk accounts 30–60 days early with automated intervention playbooks for B2B SaaS customer success teams.",
+    url: "https://2026-03-31-churnsignal.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-03-31-churnsignal",
+    tags: ["AI", "SaaS", "Customer Success", "Churn", "Analytics"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-03-31-churnsignal.png"
+  },
+  {
     id: "2026-03-30-compete-iq",
     date: "2026-03-30",
     name: "CompeteIQ",
