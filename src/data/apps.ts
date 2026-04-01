@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-01-review-iq",
+    date: "2026-04-01",
+    name: "ReviewIQ",
+    description: "AI-powered code review platform using structured prompting for 93% accuracy. Catch bugs, security issues, and performance problems before they ship — in seconds.",
+    url: "https://2026-04-01-review-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-01-review-iq",
+    tags: ["AI", "DevTools", "Code Review", "Developer Productivity"],
+    gradient: "from-indigo-500 to-blue-700",
+    screenshot: "/screenshots/2026-04-01-review-iq.png"
+  },
+  {
     id: "2026-03-31-churnsignal",
     date: "2026-03-31",
     name: "ChurnSignal",
