@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-02-benchmark-iq",
+    date: "2026-04-02",
+    name: "BenchmarkIQ",
+    description: "AI-powered SaaS metrics benchmarking platform. Enter your ARR, churn, NRR, gross margin, LTV:CAC, and CAC payback — get instant percentile rankings against 8,200+ stage-matched companies, with AI-powered insights and a prioritized action plan.",
+    url: "https://2026-04-02-benchmark-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-02-benchmark-iq",
+    tags: ["AI", "SaaS", "Analytics", "Benchmarking", "Founder Tools"],
+    gradient: "from-indigo-500 to-indigo-700",
+    screenshot: "/screenshots/2026-04-02-benchmark-iq.png",
+  },
+  {
     id: "2026-04-01-review-iq",
     date: "2026-04-01",
     name: "ReviewIQ",
