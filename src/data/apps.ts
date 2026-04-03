@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-03-extension-guard",
+    date: "2026-04-03",
+    name: "ExtensionGuard",
+    description: "Enterprise browser extension risk management. Audit every extension across all employee browsers, score risk across 12 dimensions, enforce policies, and block threats before data walks out the door. Inspired by the LinkedIn browser extension scanning story.",
+    url: "https://2026-04-03-extension-guard.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-03-extension-guard",
+    tags: ["Security", "Enterprise", "B2B SaaS", "Browser", "Compliance"],
+    gradient: "from-rose-500 to-rose-700",
+    screenshot: "/screenshots/2026-04-03-extension-guard.png",
+  },
+  {
     id: "2026-04-02-benchmark-iq",
     date: "2026-04-02",
     name: "BenchmarkIQ",
