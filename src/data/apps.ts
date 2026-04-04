@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "reserve-iq",
+    date: "2026-04-04",
+    name: "ReserveIQ",
+    description: "Central bank gold & de-dollarization intelligence platform. Track where central banks are moving reserves in real time — live gold prices, country-by-country breakdowns, and macro signals for wealth managers and institutional investors. Inspired by gold overtaking US Treasuries as the #1 global reserve asset.",
+    url: "https://2026-04-04-reserve-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-04-reserve-iq",
+    tags: ["Finance", "Gold", "Macro", "Institutional"],
+    gradient: "from-amber-500 via-yellow-500 to-orange-400",
+    screenshot: "/screenshots/reserve-iq.png",
+  },
+  {
     id: "2026-04-03-extension-guard",
     date: "2026-04-03",
     name: "ExtensionGuard",
