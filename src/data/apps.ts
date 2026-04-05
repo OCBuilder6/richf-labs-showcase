@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-05-agentwatch",
+    date: "2026-04-05",
+    name: "AgentWatch",
+    description: "AI agent monitoring & audit dashboard for engineering teams. Real-time visibility into every agent invocation, cost breakdown by model and team, full audit trail for compliance, and policy enforcement across OpenAI, Anthropic, Gemini, and more — in one dashboard.",
+    url: "https://2026-04-05-agentwatch.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-05-agentwatch",
+    tags: ["AI Agents", "LLMOps", "Observability", "B2B SaaS", "FinOps"],
+    gradient: "from-violet-600 via-violet-500 to-purple-500",
+    screenshot: "/screenshots/2026-04-05-agentwatch.png",
+  },
+  {
     id: "reserve-iq",
     date: "2026-04-04",
     name: "ReserveIQ",
