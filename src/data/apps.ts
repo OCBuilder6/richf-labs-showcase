@@ -439,6 +439,18 @@ export const apps: App[] = [
     gradient: "from-emerald-500 to-teal-400",
     screenshot: "/screenshots/agentguard.png",
   },
+  {
+    id: "2026-04-06-reg-radar",
+    name: "RegRadar",
+    date: "2026-04-06",
+    description:
+      "Regulatory change intelligence for compliance teams. Monitor 12,000+ sources across 47 jurisdictions with AI-powered impact assessments, smart alerting, and action checklists.",
+    url: "https://2026-04-06-reg-radar.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-06-reg-radar",
+    tags: ["Compliance", "RegTech", "AI", "B2B SaaS"],
+    gradient: "from-violet-600 via-purple-500 to-indigo-500",
+    screenshot: "/screenshots/2026-04-06-reg-radar.png",
+  },
 ];
 
 export function getStats() {
