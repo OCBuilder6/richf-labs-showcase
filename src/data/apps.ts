@@ -451,6 +451,18 @@ export const apps: App[] = [
     gradient: "from-violet-600 via-purple-500 to-indigo-500",
     screenshot: "/screenshots/2026-04-06-reg-radar.png",
   },
+  {
+    id: "2026-04-07-token-budget",
+    name: "TokenBudget",
+    date: "2026-04-07",
+    description:
+      "LLM cost planning for product teams. Compare GPT-4o, Claude, Gemini and more — instantly calculate monthly spend, cost per user, and per-request rates for your exact usage pattern before you ship.",
+    url: "https://2026-04-07-token-budget.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-07-token-budget",
+    tags: ["AI", "LLM", "Cost Management", "Product Tools", "B2B SaaS"],
+    gradient: "from-amber-500 via-orange-400 to-yellow-400",
+    screenshot: "/screenshots/2026-04-07-token-budget.png",
+  },
 ];
 
 export function getStats() {
