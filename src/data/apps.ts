@@ -463,6 +463,17 @@ export const apps: App[] = [
     gradient: "from-amber-500 via-orange-400 to-yellow-400",
     screenshot: "/screenshots/2026-04-07-token-budget.png",
   },
+  {
+    id: "2026-04-08-tariff-pulse",
+    date: "2026-04-08",
+    name: "TariffPulse",
+    description: "Real-time tariff impact analyzer for e-commerce businesses. Know exactly how tariff changes affect your margins, explore alternative sourcing countries, and get board-ready reports on your trade exposure.",
+    url: "https://2026-04-08-tariff-pulse.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-08-tariff-pulse",
+    tags: ["E-Commerce", "Trade Policy", "Supply Chain", "B2B SaaS"],
+    gradient: "from-blue-500 to-blue-600",
+    screenshot: "/screenshots/2026-04-08-tariff-pulse.png",
+  },
 ];
 
 export function getStats() {
