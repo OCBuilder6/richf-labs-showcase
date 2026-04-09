@@ -474,6 +474,17 @@ export const apps: App[] = [
     gradient: "from-blue-500 to-blue-600",
     screenshot: "/screenshots/2026-04-08-tariff-pulse.png",
   },
+  {
+    id: "2026-04-09-cash-signal",
+    date: "2026-04-09",
+    name: "CashSignal",
+    description: "90-day cash flow forecasting for SMBs. Input your business metrics and instantly see your cash position week-by-week, get early crisis alerts, and receive AI-suggested actions before the gap hits.",
+    url: "https://2026-04-09-cash-signal.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-09-cash-signal",
+    tags: ["Finance", "SMB", "Cash Flow", "Forecasting", "B2B SaaS"],
+    gradient: "from-emerald-500 to-teal-500",
+    screenshot: "/screenshots/2026-04-09-cash-signal.png",
+  },
 ];
 
 export function getStats() {
