@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-10-contract-shield",
+    date: "2026-04-10",
+    name: "ContractShield",
+    description: "AI contract risk analyzer for freelancers and SMBs. Paste any contract and instantly flag risky clauses, one-sided terms, IP grabs, and hidden obligations — with plain-English redline suggestions before you sign.",
+    url: "https://2026-04-10-contract-shield.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-10-contract-shield",
+    tags: ["AI", "Legal Tech", "Freelancers", "SMB", "Contract Analysis"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-04-10-contract-shield.png",
+  },
+  {
     id: "2026-04-05-agentwatch",
     date: "2026-04-05",
     name: "AgentWatch",
