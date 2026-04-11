@@ -496,6 +496,17 @@ export const apps: App[] = [
     gradient: "from-emerald-500 to-teal-500",
     screenshot: "/screenshots/2026-04-09-cash-signal.png",
   },
+  {
+    id: "2026-04-11-policy-pilot",
+    date: "2026-04-11",
+    name: "PolicyPilot",
+    description: "AI Acceptable Use Policy builder for enterprises. Generate a comprehensive, customized AI governance policy for your industry in under 2 minutes — covering data classification, approved tools, prohibited uses, enforcement, and ethics. Built for HR, Legal, and Compliance teams navigating the AI adoption wave.",
+    url: "https://2026-04-11-policy-pilot.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-11-policy-pilot",
+    tags: ["AI Governance", "Compliance", "HR Tech", "Legal Tech", "B2B SaaS"],
+    gradient: "from-violet-600 to-purple-700",
+    screenshot: "/screenshots/2026-04-11-policy-pilot.png",
+  },
 ];
 
 export function getStats() {
