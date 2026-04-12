@@ -5,18 +5,7 @@ export interface App {
   description: string;
   url: string;
   repoUrl?: string;
-  tags: string[  {
-    id: "2026-04-12-contract-pulse",
-    date: "2026-04-12",
-    name: "ContractPulse",
-    description: "Smart contract renewal & obligation tracker for growing businesses. Never miss a vendor renewal again — track all contracts, total committed spend, and get early alerts when critical renewals are approaching. Built for finance managers and operations teams at 10–200 person companies.",
-    url: "https://2026-04-12-contract-pulse.vercel.app",
-    repoUrl: "https://github.com/OCBuilder6/2026-04-12-contract-pulse",
-    tags: ["Legal Tech", "Finance", "Operations", "B2B SaaS", "Contract Management"],
-    gradient: "from-indigo-600 to-blue-600",
-    screenshot: "/screenshots/2026-04-12-contract-pulse.png",
-  },
-];
+  tags: string[];
   gradient: string;
   screenshot?: string;
 }
@@ -534,18 +523,7 @@ export const apps: App[] = [
 export function getStats() {
   const totalApps = apps.length;
   const dates = Array.from(new Set(apps.map((a) => a.date))).sort();
-  const startDate = dates[0  {
-    id: "2026-04-12-contract-pulse",
-    date: "2026-04-12",
-    name: "ContractPulse",
-    description: "Smart contract renewal & obligation tracker for growing businesses. Never miss a vendor renewal again — track all contracts, total committed spend, and get early alerts when critical renewals are approaching. Built for finance managers and operations teams at 10–200 person companies.",
-    url: "https://2026-04-12-contract-pulse.vercel.app",
-    repoUrl: "https://github.com/OCBuilder6/2026-04-12-contract-pulse",
-    tags: ["Legal Tech", "Finance", "Operations", "B2B SaaS", "Contract Management"],
-    gradient: "from-indigo-600 to-blue-600",
-    screenshot: "/screenshots/2026-04-12-contract-pulse.png",
-  },
-];
+  const startDate = dates[0];
   const start = new Date(startDate);
   const now = new Date();
   const daysSinceStart =
