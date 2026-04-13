@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-13-infercost",
+    name: "InferCost",
+    date: "2026-04-13",
+    description: "AI spend intelligence for engineering teams. Track, attribute, and optimize LLM API costs across models and features — with a built-in model router that cuts spend by 30–60%.",
+    url: "https://2026-04-13-infercost.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-13-infercost",
+    tags: ["AI", "Cost Management", "LLM", "SaaS", "Developer Tools"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-04-13-infercost.png",
+  },
+  {
     id: "2026-04-10-contract-shield",
     date: "2026-04-10",
     name: "ContractShield",
