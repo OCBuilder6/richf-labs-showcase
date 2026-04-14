@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-14-supplier-pulse",
+    name: "SupplierPulse",
+    date: "2026-04-14",
+    description: "AI supplier financial health monitoring for procurement teams. Track credit risk, payment behavior, geopolitical exposure, and news sentiment across your entire supplier base — with early-warning alerts 23 days before disruptions hit.",
+    url: "https://2026-04-14-supplier-pulse.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-14-supplier-pulse",
+    tags: ["Supply Chain", "Risk Management", "Procurement", "B2B SaaS", "AI"],
+    gradient: "from-emerald-500 to-teal-600",
+    screenshot: "/screenshots/2026-04-14-supplier-pulse.png",
+  },
+  {
     id: "2026-04-13-infercost",
     name: "InferCost",
     date: "2026-04-13",
