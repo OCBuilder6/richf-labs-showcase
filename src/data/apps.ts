@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-15-shadow-ai",
+    name: "ShadowAI",
+    date: "2026-04-15",
+    description: "Discover and govern every AI tool your employees are using — before compliance and security teams come knocking. Continuous discovery via SSO integration, automated risk classification across 400+ AI tools, policy enforcement, and spend consolidation for IT and security teams.",
+    url: "https://2026-04-15-shadow-ai.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-15-shadow-ai",
+    tags: ["Security", "IT Governance", "AI Risk", "Compliance", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-600",
+    screenshot: "/screenshots/2026-04-15-shadow-ai.png",
+  },
+  {
     id: "2026-04-14-supplier-pulse",
     name: "SupplierPulse",
     date: "2026-04-14",
