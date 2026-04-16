@@ -551,6 +551,17 @@ export const apps: App[] = [
     gradient: "from-indigo-600 to-blue-600",
     screenshot: "/screenshots/2026-04-12-contract-pulse.png",
   },
+  {
+    id: "2026-04-16-runway-iq",
+    date: "2026-04-16",
+    name: "RunwayIQ",
+    description: "Startup runway calculator and burn rate modeler for founders and CFOs. Enter your cash balance, headcount, and expenses — get instant runway, net burn, break-even timeline, and fundraising alerts. No spreadsheets required.",
+    url: "https://2026-04-16-runway-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-16-runway-iq",
+    tags: ["Fintech", "Startups", "Financial Planning", "SaaS", "CFO Tools"],
+    gradient: "from-emerald-600 to-teal-600",
+    screenshot: "/screenshots/2026-04-16-runway-iq.png",
+  },
 ];
 
 export function getStats() {
