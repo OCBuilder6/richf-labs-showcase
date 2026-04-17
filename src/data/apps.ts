@@ -12,6 +12,28 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-17-chain-sentry",
+    name: "ChainSentry",
+    date: "2026-04-17",
+    description: "Real-time blockchain security intelligence platform. Monitor Ethereum addresses, protocol contracts, and treasury wallets 24/7 — with live risk scoring, threat detection, and instant alerts. Inspired by the $280M Drift Protocol and $14M Grinex hacks. One working feature: live Etherscan address risk scanner.",
+    url: "https://2026-04-17-chain-sentry.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-17-chain-sentry",
+    tags: ["Blockchain", "Security", "DeFi", "Monitoring", "B2B SaaS"],
+    gradient: "from-red-500 to-rose-600",
+    screenshot: "/screenshots/2026-04-17-chain-sentry.png",
+  },
+  {
+    id: "2026-04-16-runway-iq",
+    name: "RunwayIQ",
+    date: "2026-04-16",
+    description: "Startup financial runway intelligence platform. Connect your bank accounts and expense tools to get real-time burn rate analysis, scenario modeling, and AI-powered fundraising timing recommendations.",
+    url: "https://2026-04-16-runway-iq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-16-runway-iq",
+    tags: ["Finance", "Startups", "Analytics", "B2B SaaS"],
+    gradient: "from-emerald-500 to-teal-600",
+    screenshot: "/screenshots/2026-04-16-runway-iq.png",
+  },
+  {
     id: "2026-04-15-shadow-ai",
     name: "ShadowAI",
     date: "2026-04-15",
