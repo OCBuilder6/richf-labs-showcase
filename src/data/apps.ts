@@ -584,6 +584,17 @@ export const apps: App[] = [
     gradient: "from-emerald-600 to-teal-600",
     screenshot: "/screenshots/2026-04-16-runway-iq.png",
   },
+  {
+    id: "2026-04-18-agent-cost",
+    date: "2026-04-18",
+    name: "AgentCost",
+    description: "AI agent spend intelligence for teams building at scale. Track real-time API costs across OpenAI, Anthropic, and Google. Set budgets, get alerts, and cut wasteful calls — before the invoice arrives. Includes a live multi-model cost calculator.",
+    url: "https://2026-04-18-agent-cost.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-18-agent-cost",
+    tags: ["AI Ops", "Cost Management", "Developer Tools", "B2B SaaS", "LLM"],
+    gradient: "from-violet-600 to-purple-600",
+    screenshot: "/screenshots/2026-04-18-agent-cost.png",
+  },
 ];
 
 export function getStats() {
