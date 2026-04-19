@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-19-factflow",
+    name: "FactFlow",
+    date: "2026-04-19",
+    description: "AI-powered claim verification for content teams. Paste any factual claim and get a real-time verdict — Likely True, Uncertain, or Likely False — backed by ranked source evidence. Built for journalists, PR agencies, and editorial teams who can't afford to publish misinformation. Inspired by the rise of AI-generated content and the growing demand for truth adjudication tools.",
+    url: "https://2026-04-19-factflow.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-19-factflow",
+    tags: ["AI", "Fact-Checking", "Content", "Journalism", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-04-19-factflow.png",
+  },
+  {
     id: "2026-04-17-chain-sentry",
     name: "ChainSentry",
     date: "2026-04-17",
