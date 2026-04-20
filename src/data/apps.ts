@@ -606,6 +606,17 @@ export const apps: App[] = [
     gradient: "from-violet-600 to-purple-600",
     screenshot: "/screenshots/2026-04-18-agent-cost.png",
   },
+  {
+    id: "2026-04-20-offer-lens",
+    date: "2026-04-20",
+    name: "OfferLens",
+    description: "Compensation offer analyzer for professionals making career-defining decisions. Decode your offer's true value — base salary, equity vesting schedule, bonuses, and benefits — into a single honest number. Includes negotiation coaching, 4-year total comp modeling, and multi-offer comparison.",
+    url: "https://2026-04-20-offer-lens.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-20-offer-lens",
+    tags: ["Career Tech", "Finance", "Compensation", "HR Tools", "B2C SaaS"],
+    gradient: "from-indigo-600 to-violet-600",
+    screenshot: "/screenshots/2026-04-20-offer-lens.png",
+  },
 ];
 
 export function getStats() {
