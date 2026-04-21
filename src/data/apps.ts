@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-21-exec-signal",
+    name: "ExecSignal",
+    date: "2026-04-21",
+    description: "Executive Transition Intelligence for institutional investors. Monitors C-suite changes, board appointments, and leadership departures across 12,000+ companies in real-time. AI-powered impact scoring, sub-15 minute signal delivery, and pattern detection for acquisition signals. Inspired by the historic Apple CEO succession — Tim Cook to John Ternus — and the market-moving power of leadership changes.",
+    url: "https://2026-04-21-exec-signal.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-21-exec-signal",
+    tags: ["AI", "Finance", "Institutional", "M&A Intelligence", "B2B SaaS"],
+    gradient: "from-indigo-500 to-blue-700",
+    screenshot: "/screenshots/2026-04-21-exec-signal.png",
+  },
+  {
     id: "2026-04-19-factflow",
     name: "FactFlow",
     date: "2026-04-19",
