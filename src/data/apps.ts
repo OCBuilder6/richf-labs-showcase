@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-22-trackshield",
+    name: "TrackShield",
+    date: "2026-04-22",
+    description: "Workplace AI monitoring compliance platform for HR and Legal teams. Inspired by Meta's decision to capture employee keystrokes and mouse movements for AI training — TrackShield audits your monitoring practices against 9 jurisdictions, generates compliance scores, surfaces critical legal risks (GDPR, NY monitoring law, California Labor Code), and produces ready-to-use employee disclosure templates. 2-minute assessment, no legal expertise required.",
+    url: "https://2026-04-22-trackshield.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-22-trackshield",
+    tags: ["HR Tech", "Legal Tech", "Compliance", "Privacy", "B2B SaaS"],
+    gradient: "from-indigo-600 to-violet-600",
+    screenshot: "/screenshots/2026-04-22-trackshield.png",
+  },
+  {
     id: "2026-04-21-exec-signal",
     name: "ExecSignal",
     date: "2026-04-21",
