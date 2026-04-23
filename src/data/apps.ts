@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-23-fieldfix",
+    name: "FieldFix",
+    date: "2026-04-23",
+    description: "Farm equipment TCO and lock-in intelligence for agricultural operations. Inspired by the viral Alberta no-tech tractor story — FieldFix scores equipment brands by software lock-in risk (John Deere 94/100, Kubota 28/100), projects 10-year total cost of ownership including dealer repair premiums, and calculates how much you'd save with open-architecture alternatives. Built for farm managers and ag procurement teams.",
+    url: "https://2026-04-23-fieldfix.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-23-fieldfix",
+    tags: ["AgTech", "Equipment Finance", "Right-to-Repair", "TCO", "B2B SaaS"],
+    gradient: "from-emerald-500 to-teal-600",
+    screenshot: "/screenshots/2026-04-23-fieldfix.png",
+  },
+  {
     id: "2026-04-22-trackshield",
     name: "TrackShield",
     date: "2026-04-22",
