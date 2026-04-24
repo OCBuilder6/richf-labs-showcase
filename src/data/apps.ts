@@ -650,6 +650,17 @@ export const apps: App[] = [
     gradient: "from-indigo-600 to-violet-600",
     screenshot: "/screenshots/2026-04-20-offer-lens.png",
   },
+  {
+    id: "2026-04-24-clause-check",
+    date: "2026-04-24",
+    name: "ClauseCheck",
+    description: "AI-powered contract clause risk analyzer for procurement and legal ops teams. Instantly flags unfavorable terms, liability gaps, and one-sided clauses — with plain-English explanations and AI-generated redline suggestions. Review vendor contracts 10x faster.",
+    url: "https://2026-04-24-clause-check.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-24-clause-check",
+    tags: ["LegalTech", "Procurement", "AI", "B2B SaaS", "Contract Management"],
+    gradient: "from-blue-600 to-indigo-600",
+    screenshot: "/screenshots/2026-04-24-clause-check.png",
+  },
 ];
 
 export function getStats() {
