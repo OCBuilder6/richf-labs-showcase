@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-25-demoflow",
+    name: "DemoFlow",
+    date: "2026-04-25",
+    description: "AI-powered demo script optimizer for B2B sales teams. Sales reps waste 60–90 minutes crafting personalized demo scripts that still miss the mark — DemoFlow generates tailored, prospect-specific scripts in under 60 seconds. Input company name, industry, and pain points; get a full 30-minute demo narrative with discovery hooks, objection handlers, timing cues, and a structured close. Built for AEs, SEs, and sales managers at B2B SaaS companies.",
+    url: "https://2026-04-25-demoflow.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-25-demoflow",
+    tags: ["AI", "Sales Tech", "B2B SaaS", "Revenue Enablement", "Demo Automation"],
+    gradient: "from-violet-500 to-purple-600",
+    screenshot: "/screenshots/2026-04-25-demoflow.png",
+  },
+  {
     id: "2026-04-23-fieldfix",
     name: "FieldFix",
     date: "2026-04-23",
