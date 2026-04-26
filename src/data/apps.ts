@@ -672,6 +672,17 @@ export const apps: App[] = [
     gradient: "from-blue-600 to-indigo-600",
     screenshot: "/screenshots/2026-04-24-clause-check.png",
   },
+  {
+    id: "2026-04-26-meetmeter",
+    date: "2026-04-26",
+    name: "MeetMeter",
+    description: "Real-time meeting cost calculator for high-performing teams. Watch the true dollar cost of every meeting tick up live — based on attendee roles and market-rate salaries. Stop letting unnecessary meetings silently drain your budget. Includes analytics, calendar integration, and team cost reporting.",
+    url: "https://2026-04-26-meetmeter.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-26-meetmeter",
+    tags: ["Productivity", "Meetings", "Team Management", "B2B SaaS", "Analytics"],
+    gradient: "from-violet-600 to-purple-600",
+    screenshot: "/screenshots/2026-04-26-meetmeter.png",
+  },
 ];
 
 export function getStats() {
