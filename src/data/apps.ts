@@ -683,6 +683,17 @@ export const apps: App[] = [
     gradient: "from-violet-600 to-purple-600",
     screenshot: "/screenshots/2026-04-26-meetmeter.png",
   },
+  {
+    id: "2026-04-27-agentaudit",
+    date: "2026-04-27",
+    name: "AgentAudit",
+    description: "The compliance layer for enterprise AI agents. Log, replay, and certify every AI decision for regulators and auditors.",
+    url: "https://2026-04-27-agentaudit.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-27-agentaudit",
+    tags: ["AI", "Compliance", "Enterprise", "Audit"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-04-27-agentaudit.png",
+  },
 ];
 
 export function getStats() {
