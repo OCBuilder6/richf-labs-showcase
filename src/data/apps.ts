@@ -694,6 +694,17 @@ export const apps: App[] = [
     gradient: "from-indigo-500 to-violet-600",
     screenshot: "/screenshots/2026-04-27-agentaudit.png",
   },
+  {
+    id: "2026-04-28-contract-ai",
+    date: "2026-04-28",
+    name: "ClauseAI",
+    description: "AI-powered contract review and risk flagging for small businesses. Paste any contract — NDA, vendor agreement, service contract — and get an instant risk report with plain-English clause explanations, color-coded risk scoring, and specific negotiation tips. No lawyer required.",
+    url: "https://2026-04-28-contract-ai.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-28-contract-ai",
+    tags: ["LegalTech", "AI", "SMB", "Contract Analysis", "B2B SaaS"],
+    gradient: "from-indigo-600 to-violet-600",
+    screenshot: "/screenshots/2026-04-28-contract-ai.png",
+  },
 ];
 
 export function getStats() {
