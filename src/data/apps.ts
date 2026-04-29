@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-04-29-pitchgrade",
+    name: "PitchGrade",
+    date: "2026-04-29",
+    description: "AI-powered startup pitch deck analyzer for founders. Paste your elevator pitch or exec summary and get a detailed investor-grade score across 6 dimensions: problem clarity, market size, solution differentiation, business model, traction, and team. Includes overall grade, investor verdict, top strengths, critical gaps, and a specific next action. Inspired by the 95% rejection rate founders face — most for fixable, obvious reasons.",
+    url: "https://2026-04-29-pitchgrade.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-29-pitchgrade",
+    tags: ["AI", "Founder Tools", "Fundraising", "B2B SaaS", "Pitch Analysis"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-04-29-pitchgrade.png",
+  },
+  {
     id: "2026-04-25-demoflow",
     name: "DemoFlow",
     date: "2026-04-25",
