@@ -716,6 +716,17 @@ export const apps: App[] = [
     gradient: "from-indigo-600 to-violet-600",
     screenshot: "/screenshots/2026-04-28-contract-ai.png",
   },
+  {
+    id: "2026-04-30-counsel-ai",
+    date: "2026-04-30",
+    name: "CounselAI",
+    description: "On-demand AI legal advisor for small businesses. Get instant, plain-language answers on contracts, employment law, GDPR, incorporation, IP protection, and founder agreements — for less than the cost of one hour with a lawyer. Includes an interactive legal chat widget with keyword-matched and GPT-powered responses.",
+    url: "https://2026-04-30-counsel-ai.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-04-30-counsel-ai",
+    tags: ["LegalTech", "AI", "SMB", "Compliance", "B2B SaaS"],
+    gradient: "from-indigo-600 to-blue-600",
+    screenshot: "/screenshots/2026-04-30-counsel-ai.png",
+  },
 ];
 
 export function getStats() {
