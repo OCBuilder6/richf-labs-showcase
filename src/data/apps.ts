@@ -727,6 +727,17 @@ export const apps: App[] = [
     gradient: "from-indigo-600 to-blue-600",
     screenshot: "/screenshots/2026-04-30-counsel-ai.png",
   },
+  {
+    id: "2026-05-01-carbon-ledger",
+    date: "2026-05-01",
+    name: "CarbonLedger",
+    description: "Carbon accounting platform for businesses navigating EU CSRD and SEC climate disclosure requirements. Track Scope 1, 2, and 3 emissions automatically, generate audit-ready reports, and identify your highest-impact reduction opportunities — without a sustainability consultant.",
+    url: "https://2026-05-01-carbon-ledger.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-01-carbon-ledger",
+    tags: ["Sustainability", "Compliance", "ESG", "Carbon", "B2B SaaS"],
+    gradient: "from-emerald-500 to-green-600",
+    screenshot: "/screenshots/2026-05-01-carbon-ledger.png",
+  },
 ];
 
 export function getStats() {
