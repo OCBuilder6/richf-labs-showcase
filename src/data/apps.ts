@@ -728,6 +728,17 @@ export const apps: App[] = [
     screenshot: "/screenshots/2026-04-30-counsel-ai.png",
   },
   {
+    id: "2026-05-02-authflow",
+    date: "2026-05-02",
+    name: "AuthFlow",
+    description: "AI prior authorization assistant for medical practices. Stop losing 16+ hours a week to prior auth paperwork — AuthFlow drafts complete, payer-ready authorization letters in seconds using AI. Enter CPT code, diagnosis, and payer; get a formatted letter, required documentation checklist, and approval tips. Targets billing managers, practice administrators, and revenue cycle teams at medical practices.",
+    url: "https://2026-05-02-authflow.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-02-authflow",
+    tags: ["Healthcare", "AI", "Medical Billing", "Prior Auth", "B2B SaaS"],
+    gradient: "from-blue-500 to-blue-700",
+    screenshot: "/screenshots/2026-05-02-authflow.png",
+  },
+  {
     id: "2026-05-01-carbon-ledger",
     date: "2026-05-01",
     name: "CarbonLedger",
