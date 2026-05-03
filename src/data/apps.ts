@@ -749,6 +749,17 @@ export const apps: App[] = [
     gradient: "from-emerald-500 to-green-600",
     screenshot: "/screenshots/2026-05-01-carbon-ledger.png",
   },
+  {
+    id: "2026-05-03-agent-gov",
+    date: "2026-05-03",
+    name: "AgentGov",
+    description: "The control plane for your AI agent fleet. Companies deploying AI agents have no central visibility into what they're doing — AgentGov provides real-time monitoring, policy enforcement, audit trails, and violation alerts for every AI agent in your organization. Built for AI Platform teams and CTOs at companies running 5+ agents.",
+    url: "https://2026-05-03-agent-gov.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-03-agent-gov",
+    tags: ["AI Governance", "Enterprise AI", "Monitoring", "Compliance", "B2B SaaS"],
+    gradient: "from-indigo-600 to-violet-700",
+    screenshot: "/screenshots/2026-05-03-agent-gov.png",
+  },
 ];
 
 export function getStats() {
