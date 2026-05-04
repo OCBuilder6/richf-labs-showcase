@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-04-cleartriage",
+    name: "ClearTriage",
+    date: "2026-05-04",
+    description: "AI-powered symptom assessment and care routing. Inspired by research showing AI outperforms ER triage nurses (67% vs 55% accuracy) — ClearTriage tells you in 60 seconds whether your symptoms need the ER, urgent care, telehealth, or home rest. Includes urgency scoring, cost comparison across care levels, warning sign detection, and doctor visit prep questions. Targets consumers, families, and employers looking to reduce unnecessary ER costs.",
+    url: "https://2026-05-04-cleartriage.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-04-cleartriage",
+    tags: ["AI", "HealthTech", "Care Routing", "Consumer Health", "B2B SaaS"],
+    gradient: "from-sky-400 to-cyan-600",
+    screenshot: "/screenshots/2026-05-04-cleartriage.png",
+  },
+  {
     id: "2026-04-29-pitchgrade",
     name: "PitchGrade",
     date: "2026-04-29",
