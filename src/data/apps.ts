@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-05-policy-pilot",
+    name: "PolicyPilot",
+    date: "2026-05-05",
+    description: "AI governance policy generator for companies navigating the EU AI Act, ISO 42001, and NIST AI RMF. Legal firms charge $8k–$15k for a custom AI usage policy and take 8 weeks. PolicyPilot generates a board-ready, industry-specific, regulation-mapped policy document in under 60 seconds. Targets CTOs, legal ops, and compliance teams at mid-market and enterprise companies.",
+    url: "https://2026-05-05-policy-pilot.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-05-policy-pilot",
+    tags: ["AI", "Compliance", "LegalTech", "Governance", "B2B SaaS"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-05-05-policy-pilot.png",
+  },
+  {
     id: "2026-05-04-cleartriage",
     name: "ClearTriage",
     date: "2026-05-04",
