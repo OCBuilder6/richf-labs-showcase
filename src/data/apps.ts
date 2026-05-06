@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-06-cost-compass",
+    name: "CostCompass",
+    date: "2026-05-06",
+    description: "AI API cost intelligence platform. Identifies where teams overpay on AI (Computer Use vs structured APIs) and delivers actionable savings recommendations. Engineering leads at AI-first startups use it to cut AI spend by 67% on average.",
+    url: "https://2026-05-06-cost-compass.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-06-cost-compass",
+    tags: ["AI", "Cost Optimization", "Developer Tools", "Analytics"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-05-06-cost-compass.png",
+  },
+  {
     id: "2026-05-05-policy-pilot",
     name: "PolicyPilot",
     date: "2026-05-05",
