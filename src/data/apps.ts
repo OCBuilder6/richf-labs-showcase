@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-07-safetyscore",
+    name: "SafetyScore",
+    date: "2026-05-07",
+    description: "AI compliance and regulatory readiness platform. As governments mandate safety testing for AI models from Google, Microsoft, and xAI, companies need a clear compliance posture. SafetyScore assesses AI models across 7 dimensions (NIST AI RMF, EU AI Act, CISA) and produces audit-ready documentation. Targets AI product teams, compliance officers, and enterprise AI programs.",
+    url: "https://2026-05-07-safetyscore.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-07-safetyscore",
+    tags: ["AI Compliance", "Regulatory", "Risk Management", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-05-07-safetyscore.png",
+  },
+  {
     id: "2026-05-06-cost-compass",
     name: "CostCompass",
     date: "2026-05-06",
