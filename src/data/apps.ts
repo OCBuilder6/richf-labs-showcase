@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-08-regsync",
+    name: "RegSync",
+    date: "2026-05-08",
+    description: "AI-powered regulatory change monitoring for fintech and crypto compliance teams. Monitors SEC, CFTC, FCA, MAS, ESMA, and 9+ more regulators in real-time — delivering AI-summarized alerts with impact scoring so teams never miss a critical regulatory change. Targets compliance officers, legal teams, and fintech/crypto companies navigating global regulatory complexity.",
+    url: "https://2026-05-08-regsync.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-08-regsync",
+    tags: ["Compliance", "Regulatory", "Fintech", "Crypto", "B2B SaaS"],
+    gradient: "from-indigo-500 to-blue-700",
+    screenshot: "/screenshots/2026-05-08-regsync.png",
+  },
+  {
     id: "2026-05-07-safetyscore",
     name: "SafetyScore",
     date: "2026-05-07",
