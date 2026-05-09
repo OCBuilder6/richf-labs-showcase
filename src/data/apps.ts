@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-09-agentbond",
+    name: "AgentBond",
+    date: "2026-05-09",
+    description: "Trustless on-chain escrow for AI agent tasks. As autonomous AI agents execute real-world tasks with real money at stake, AgentBond provides non-custodial smart contract escrow on Polygon — milestone-based payment releases, on-chain arbitration, and a full agent API. Targets companies deploying AI agents for paid workflows, freelancers using AI to deliver work, and any B2B transaction needing trustless settlement.",
+    url: "https://2026-05-09-agentbond.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-09-agentbond",
+    tags: ["Web3", "AI Agents", "Escrow", "Polygon", "DeFi", "B2B SaaS"],
+    gradient: "from-orange-500 to-amber-600",
+    screenshot: "/screenshots/2026-05-09-agentbond.png",
+  },
+  {
     id: "2026-05-08-regsync",
     name: "RegSync",
     date: "2026-05-08",
