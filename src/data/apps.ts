@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-10-promptops",
+    name: "PromptOps",
+    date: "2026-05-10",
+    description: "Enterprise AI prompt engineering platform. Teams building on LLMs have no centralized way to version, test, and manage prompts — they scatter across Notion and Slack with no analytics. PromptOps provides a prompt library with full version control, live testing against real AI models (with latency, token count, and cost metrics), A/B testing, and one-click deploy via API. Built for AI Platform teams, prompt engineers, and developers shipping AI features at scale.",
+    url: "https://2026-05-10-promptops.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-10-promptops",
+    tags: ["AI", "Developer Tools", "Prompt Engineering", "LLM Ops", "B2B SaaS"],
+    gradient: "from-violet-600 to-purple-700",
+    screenshot: "/screenshots/2026-05-10-promptops.png",
+  },
+  {
     id: "2026-05-09-agentbond",
     name: "AgentBond",
     date: "2026-05-09",
