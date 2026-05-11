@@ -837,6 +837,17 @@ export const apps: App[] = [
     gradient: "from-indigo-600 to-violet-700",
     screenshot: "/screenshots/2026-05-03-agent-gov.png",
   },
+  {
+    id: "2026-05-11-reachflow",
+    date: "2026-05-11",
+    name: "ReachFlow",
+    description: "AI-powered cold email personalization for sales teams. Stop spending an hour per prospect — ReachFlow generates hyper-personalized outbound emails in seconds using AI. Enter a company, prospect role, and your value prop; get a polished email with subject line, opening hook, and CTA ready to send. Built for SDRs, AEs, and founders doing B2B outbound.",
+    url: "https://2026-05-11-reachflow.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-11-reachflow",
+    tags: ["Sales", "AI", "Email", "Outbound", "B2B SaaS"],
+    gradient: "from-blue-500 to-blue-700",
+    screenshot: "/screenshots/2026-05-11-reachflow.png",
+  },
 ];
 
 export function getStats() {
