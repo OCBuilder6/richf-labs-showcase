@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-12-supplysync",
+    name: "SupplySync",
+    date: "2026-05-12",
+    description: "AI-powered supply chain disruption early warning and alternative sourcing platform. Procurement teams discover supply chain failures after they hit production — SupplySync monitors 180+ countries for geopolitical events, financial distress, port delays, and weather disruptions, scoring every supplier with a live risk index and instantly surfacing qualified alternatives. Built for VP Procurement, supply chain directors, and operations leaders at manufacturers and importers.",
+    url: "https://2026-05-12-supplysync.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-12-supplysync",
+    tags: ["Supply Chain", "Procurement", "Risk Management", "AI", "B2B SaaS"],
+    gradient: "from-emerald-500 to-teal-600",
+    screenshot: "/screenshots/2026-05-12-supplysync.png",
+  },
+  {
     id: "2026-05-10-promptops",
     name: "PromptOps",
     date: "2026-05-10",
