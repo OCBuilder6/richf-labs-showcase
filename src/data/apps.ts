@@ -849,6 +849,17 @@ export const apps: App[] = [
     screenshot: "/screenshots/2026-05-03-agent-gov.png",
   },
   {
+    id: "2026-05-13-pressroom",
+    date: "2026-05-13",
+    name: "PressRoom",
+    description: "AI-powered media outreach platform that matches your story to the right journalists and writes personalized pitches in 90 seconds. Stop pitching blind — PressRoom analyzes your announcement, identifies the best outlets and beats to target, generates 3 distinct story angles, and drafts short, exclusive, and follow-up pitch emails ready to send. Built for founders, PR managers, and communications teams tired of cold-pitching the wrong reporters.",
+    url: "https://2026-05-13-pressroom.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-13-pressroom",
+    tags: ["PR", "AI", "Media", "Outreach", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-05-13-pressroom.png",
+  },
+  {
     id: "2026-05-11-reachflow",
     date: "2026-05-11",
     name: "ReachFlow",
