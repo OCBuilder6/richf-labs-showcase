@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-14-contractguard",
+    name: "ContractGuard",
+    date: "2026-05-14",
+    description: "AI-powered contract risk scanner for SMBs. Most growing businesses sign contracts without legal review — too slow and too expensive. ContractGuard instantly analyzes contract text with AI, flags risky clauses (unlimited liability, broad IP assignments, auto-renewals, non-competes), identifies missing protections, and generates specific counter-proposal language. Works for NDAs, service agreements, employment contracts, and vendor deals. Built for founders, ops managers, and small legal teams who need confidence without a $400/hour attorney.",
+    url: "https://2026-05-14-contractguard.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-14-contractguard",
+    tags: ["Legal Tech", "AI", "Contract Review", "SMB", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-600",
+    screenshot: "/screenshots/2026-05-14-contractguard.png",
+  },
+  {
     id: "2026-05-12-supplysync",
     name: "SupplySync",
     date: "2026-05-12",
