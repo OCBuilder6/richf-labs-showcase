@@ -860,6 +860,17 @@ export const apps: App[] = [
     screenshot: "/screenshots/2026-05-03-agent-gov.png",
   },
   {
+    id: "2026-05-15-ai-spend-optimizer",
+    date: "2026-05-15",
+    name: "SpendIQ",
+    description: "AI SaaS Spend Optimizer for finance teams and CTOs. Companies are hemorrhaging money on AI tool subscriptions (ChatGPT, Copilot, Claude, Jasper, etc.) with zero visibility into actual ROI per seat or per team. SpendIQ provides a real-time dashboard to track every AI subscription, measure ROI per user, benchmark against peers, and act on AI-powered downgrade recommendations. Built for finance teams and CTOs at 50–500 person SaaS companies.",
+    url: "https://2026-05-15-ai-spend-optimizer.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-15-ai-spend-optimizer",
+    tags: ["AI", "FinOps", "SaaS Management", "Cost Optimization", "B2B SaaS"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-05-15-ai-spend-optimizer.png",
+  },
+  {
     id: "2026-05-13-pressroom",
     date: "2026-05-13",
     name: "PressRoom",
