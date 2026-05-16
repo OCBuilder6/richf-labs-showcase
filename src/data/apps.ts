@@ -882,6 +882,17 @@ export const apps: App[] = [
     screenshot: "/screenshots/2026-05-13-pressroom.png",
   },
   {
+    id: "2026-05-16-founderdraft",
+    date: "2026-05-16",
+    name: "FounderDraft",
+    description: "AI-powered business plan and pitch deck builder for startup founders. Turn your startup idea into an investor-ready business plan in minutes — complete with executive summary, market analysis, 3-year financial projections, pitch deck outline, and an investor readiness score. Built for founders raising pre-seed to Series A.",
+    url: "https://2026-05-16-founderdraft.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-16-founderdraft",
+    tags: ["Startups", "AI", "Fundraising", "B2B SaaS", "Productivity"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-05-16-founderdraft.png",
+  },
+  {
     id: "2026-05-11-reachflow",
     date: "2026-05-11",
     name: "ReachFlow",
