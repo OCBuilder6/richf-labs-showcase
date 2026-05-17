@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-17-forecastiq",
+    name: "ForecastIQ",
+    date: "2026-05-17",
+    description: "SaaS revenue forecasting and scenario planning platform for founders and CFOs. Most B2B SaaS companies still run their revenue models in error-prone spreadsheets that drift out of date and don't support real scenario analysis. ForecastIQ lets teams model ARR growth, churn, and expansion revenue with live bear/base/bull scenarios, NRR analysis, and board-ready exports. Features a live interactive calculator, Stripe and Chargebee integrations, variance alerts, and collaborative planning. Built for SaaS founders, CFOs, and finance teams who need to forecast with confidence.",
+    url: "https://2026-05-17-forecastiq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-17-forecastiq",
+    tags: ["Finance", "SaaS", "Revenue Intelligence", "B2B", "Forecasting"],
+    gradient: "from-violet-500 to-indigo-600",
+    screenshot: "/screenshots/2026-05-17-forecastiq.png",
+  },
+  {
     id: "2026-05-14-contractguard",
     name: "ContractGuard",
     date: "2026-05-14",
