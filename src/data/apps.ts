@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-18-complianceos",
+    name: "ComplianceOS",
+    date: "2026-05-18",
+    description: "Regulatory compliance command center for modern businesses navigating the EU AI Act, GDPR, CCPA, NIS2, and 200+ regulations. ComplianceOS maps every law that applies to your company, generates a prioritized action plan, assigns tasks to your team, tracks deadlines, and alerts you when regulations change — so nothing slips through the cracks. Features a live compliance analyzer: input your company profile and instantly see which regulations apply, with step-by-step action items for each. Built for legal, compliance, and operations teams at mid-market and enterprise companies.",
+    url: "https://2026-05-18-complianceos.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-18-complianceos",
+    tags: ["Compliance", "Legal", "AI Act", "GDPR", "B2B SaaS", "RegTech"],
+    gradient: "from-sky-500 to-blue-700",
+    screenshot: "/screenshots/2026-05-18-complianceos.png",
+  },
+  {
     id: "2026-05-17-forecastiq",
     name: "ForecastIQ",
     date: "2026-05-17",
