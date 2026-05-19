@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-19-dataroom-ai",
+    name: "DataRoom AI",
+    date: "2026-05-19",
+    description: "AI-powered fundraising data room audit and preparation tool for startup founders. Instantly analyze your documents, identify every gap investors will find, and generate missing materials — so you close your Series A, B, or beyond faster with less chaos.",
+    url: "https://2026-05-19-dataroom-ai.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-19-dataroom-ai",
+    tags: ["Fundraising", "Startups", "AI", "VC", "B2B SaaS"],
+    gradient: "from-violet-500 to-indigo-600",
+    screenshot: "/screenshots/2026-05-19-dataroom-ai.png",
+  },
+  {
     id: "2026-05-18-complianceos",
     name: "ComplianceOS",
     date: "2026-05-18",
