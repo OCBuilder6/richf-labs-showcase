@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-20-vaultiq",
+    name: "VaultIQ",
+    date: "2026-05-20",
+    description: "On-chain treasury intelligence for DAOs and web3 teams. Enter any Ethereum address and instantly see live asset balances, USD valuations, runway projections, and allocation breakdowns — all pulled directly from the blockchain. No spreadsheets, no guesswork.",
+    url: "https://2026-05-20-vaultiq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-20-vaultiq",
+    tags: ["Web3", "DAO", "Treasury", "DeFi", "Blockchain"],
+    gradient: "from-amber-500 to-orange-600",
+    screenshot: "/screenshots/2026-05-20-vaultiq.png",
+  },
+  {
     id: "2026-05-19-dataroom-ai",
     name: "DataRoom AI",
     date: "2026-05-19",
