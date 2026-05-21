@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-21-climateiq",
+    name: "ClimateIQ",
+    date: "2026-05-21",
+    description: "Climate risk intelligence for real estate investors, mortgage brokers, and property managers. Enter any US address and instantly get a property-level risk scorecard: FEMA flood zone, wildfire exposure, extreme heat days, and sea level rise — pulled from live government data sources. No more guessing on climate-related insurance costs or regulatory disclosures. Built for investors, lenders, and property teams who need compliance-ready climate risk reports.",
+    url: "https://2026-05-21-climateiq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-21-climateiq",
+    tags: ["Climate Risk", "Real Estate", "Compliance", "PropTech", "B2B SaaS"],
+    gradient: "from-emerald-500 to-teal-600",
+    screenshot: "/screenshots/2026-05-21-climateiq.png",
+  },
+  {
     id: "2026-05-20-vaultiq",
     name: "VaultIQ",
     date: "2026-05-20",
