@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-23-scopeguard",
+    name: "ScopeGuard",
+    date: "2026-05-23",
+    description: "AI-powered scope creep detection and change order generation for digital agencies and consulting firms. Paste any client email alongside your project scope — ScopeGuard instantly detects scope changes, categorizes them, estimates hours and cost impact, and drafts formal change order language. Stop losing margin to undocumented requests.",
+    url: "https://2026-05-23-scopeguard.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-23-scopeguard",
+    tags: ["Agencies", "Project Management", "AI", "Change Orders", "B2B SaaS"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-05-23-scopeguard.png",
+  },
+  {
     id: "2026-05-21-climateiq",
     name: "ClimateIQ",
     date: "2026-05-21",
