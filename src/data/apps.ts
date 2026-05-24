@@ -969,6 +969,17 @@ export const apps: App[] = [
     gradient: "from-blue-500 to-blue-700",
     screenshot: "/screenshots/2026-05-11-reachflow.png",
   },
+  {
+    id: "2026-05-24-standupflow",
+    date: "2026-05-24",
+    name: "StandupFlow",
+    description: "Async standup automation for distributed engineering teams. Replace daily sync meetings with structured async updates — formatted for Slack, email, or Notion in under 90 seconds.",
+    url: "https://2026-05-24-standupflow.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-24-standupflow",
+    tags: ["Async", "Remote Teams", "Engineering", "Productivity", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-05-24-standupflow.png",
+  },
 ];
 
 export function getStats() {
