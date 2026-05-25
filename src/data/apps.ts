@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-25-authentiq",
+    name: "AuthentiQ",
+    date: "2026-05-25",
+    description: "Enterprise AI content authenticity and watermark detection platform. Paste any text — email, contract, report, resume — and AuthentiQ runs five linguistic signal analyses (burstiness, transition density, corporate lexicon, personal voice, vocabulary density) to produce a 0–100 AI probability score. Built for compliance, legal, and HR teams who need defensible audit trails as SynthID watermarking becomes the industry standard. REST API included.",
+    url: "https://2026-05-25-authentiq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-25-authentiq",
+    tags: ["AI Detection", "Compliance", "Legal", "Enterprise", "SynthID", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-05-25-authentiq.png",
+  },
+  {
     id: "2026-05-23-scopeguard",
     name: "ScopeGuard",
     date: "2026-05-23",
