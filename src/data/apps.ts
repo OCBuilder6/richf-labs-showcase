@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-26-agentspec",
+    name: "AgentSpec",
+    date: "2026-05-26",
+    description: "AI agent specification generator for engineering teams shipping autonomous agents. Describe your agent type and use case — AgentSpec generates a complete, production-ready spec: system prompt, guardrails with severity levels, tool permissions, escalation protocols, and test scenarios. Stop shipping agents on ad-hoc Google Docs. Get structured, auditable specs in 60 seconds.",
+    url: "https://2026-05-26-agentspec.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-26-agentspec",
+    tags: ["AI Agents", "DevTools", "Governance", "LLM Ops", "Enterprise", "B2B SaaS"],
+    gradient: "from-violet-500 to-indigo-700",
+    screenshot: "/screenshots/2026-05-26-agentspec.png",
+  },
+  {
     id: "2026-05-25-authentiq",
     name: "AuthentiQ",
     date: "2026-05-25",
