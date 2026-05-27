@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-27-solostack",
+    name: "SoloStack",
+    date: "2026-05-27",
+    description: "AI-powered business toolkit for freelancers and independent consultants. Describe your client's project and SoloStack generates a complete, professional proposal in 60 seconds — executive summary, scope of work, deliverables, timeline, pricing breakdown, and terms. Stop losing hours to admin. Win more clients, bill more hours.",
+    url: "https://2026-05-27-solostack.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-27-solostack",
+    tags: ["Freelance", "AI", "Proposals", "Productivity", "SMB", "SaaS"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-05-27-solostack.png",
+  },
+  {
     id: "2026-05-26-agentspec",
     name: "AgentSpec",
     date: "2026-05-26",
