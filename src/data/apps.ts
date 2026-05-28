@@ -1013,6 +1013,17 @@ export const apps: App[] = [
     gradient: "from-violet-500 to-purple-700",
     screenshot: "/screenshots/2026-05-24-standupflow.png",
   },
+  {
+    id: "2026-05-28-echoboard",
+    date: "2026-05-28",
+    name: "EchoBoard",
+    description: "Automated competitive intelligence that monitors competitor pricing, feature launches, and messaging shifts — delivering AI-written briefings so product and marketing teams always know what changed and why it matters.",
+    url: "https://2026-05-28-echoboard.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-28-echoboard",
+    tags: ["Competitive Intelligence", "AI", "SaaS", "Product", "Marketing"],
+    gradient: "from-violet-500 to-indigo-700",
+    screenshot: "/screenshots/2026-05-28-echoboard.png",
+  },
 ];
 
 export function getStats() {
