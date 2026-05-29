@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-29-draftsense",
+    name: "DraftSense",
+    date: "2026-05-29",
+    description: "AI-powered RFP analysis and proposal response intelligence for B2B sales teams. Paste any RFP and DraftSense instantly scores your fit, extracts every requirement, flags hidden risks, and generates a winning response outline — in under 30 seconds. Stop spending 40 hours responding to RFPs blind. Win more deals with strategic AI intelligence.",
+    url: "https://2026-05-29-draftsense.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-29-draftsense",
+    tags: ["B2B Sales", "AI", "RFP", "Proposals", "Enterprise", "SaaS"],
+    gradient: "from-blue-500 to-indigo-600",
+    screenshot: "/screenshots/2026-05-29-draftsense.png",
+  },
+  {
     id: "2026-05-27-solostack",
     name: "SoloStack",
     date: "2026-05-27",
