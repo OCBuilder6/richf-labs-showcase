@@ -1035,6 +1035,17 @@ export const apps: App[] = [
     gradient: "from-violet-500 to-indigo-700",
     screenshot: "/screenshots/2026-05-28-echoboard.png",
   },
+  {
+    id: "2026-05-30-boardbrief",
+    date: "2026-05-30",
+    name: "BoardBrief",
+    description: "AI board meeting preparation assistant that turns raw metrics and updates into polished, board-level narratives in 5 minutes — so CEOs and CFOs walk into every board meeting confident.",
+    url: "https://2026-05-30-boardbrief.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-30-boardbrief",
+    tags: ["Board Management", "AI", "Executive", "SaaS", "Finance"],
+    gradient: "from-blue-500 to-indigo-700",
+    screenshot: "/screenshots/2026-05-30-boardbrief.png",
+  },
 ];
 
 export function getStats() {
