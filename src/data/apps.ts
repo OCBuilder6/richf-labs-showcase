@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-05-31-hiresignal",
+    name: "HireSignal",
+    date: "2026-05-31",
+    description: "AI-powered job description optimizer for talent acquisition teams. Paste any job description and instantly get a candidate appeal score, bias flags, requirements rationalization (essential vs inflated), tone assessment, and an AI-rewritten optimized version — so you attract 2x more qualified applicants without changing your hiring standards.",
+    url: "https://2026-05-31-hiresignal.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-05-31-hiresignal",
+    tags: ["HR Tech", "AI", "Recruiting", "Job Descriptions", "B2B SaaS"],
+    gradient: "from-blue-500 to-violet-600",
+    screenshot: "/screenshots/2026-05-31-hiresignal.png",
+  },
+  {
     id: "2026-05-29-draftsense",
     name: "DraftSense",
     date: "2026-05-29",
