@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-01-marginmap",
+    name: "MarginMap",
+    date: "2026-06-01",
+    description: "SaaS unit economics calculator for founders and CFOs. Calculate gross margin, LTV:CAC ratio, CAC payback period, magic number, burn multiple, NRR, and runway — all in real time with instant benchmark scoring. Know exactly where your business stands and what to fix next.",
+    url: "https://2026-06-01-marginmap.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-01-marginmap",
+    tags: ["SaaS Finance", "Unit Economics", "CFO Tools", "Calculators", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-600",
+    screenshot: "/screenshots/2026-06-01-marginmap.png",
+  },
+  {
     id: "2026-05-31-hiresignal",
     name: "HireSignal",
     date: "2026-05-31",
