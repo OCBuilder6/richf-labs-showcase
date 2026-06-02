@@ -1068,6 +1068,17 @@ export const apps: App[] = [
     gradient: "from-blue-500 to-indigo-700",
     screenshot: "/screenshots/2026-05-30-boardbrief.png",
   },
+  {
+    id: "2026-06-02-stackwatch",
+    date: "2026-06-02",
+    name: "StackWatch",
+    description: "Real-time third-party API status monitor for engineering teams. Stop debugging your code when it's actually upstream — StackWatch tracks GitHub, Stripe, Vercel, OpenAI, Cloudflare, Twilio and 6 more services live, with instant Slack and email alerts when something breaks.",
+    url: "https://2026-06-02-stackwatch.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-02-stackwatch",
+    tags: ["DevTools", "Monitoring", "SRE", "Engineering", "B2B SaaS"],
+    gradient: "from-indigo-500 to-violet-700",
+    screenshot: "/screenshots/2026-06-02-stackwatch.png",
+  },
 ];
 
 export function getStats() {
