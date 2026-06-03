@@ -1069,6 +1069,17 @@ export const apps: App[] = [
     screenshot: "/screenshots/2026-05-30-boardbrief.png",
   },
   {
+    id: "2026-06-03-churnradar",
+    date: "2026-06-03",
+    name: "ChurnRadar",
+    description: "AI-powered customer churn early warning system for SaaS companies. Enter a customer's behavioral signals — login frequency, feature adoption, NPS, support volume — and get an instant AI-generated churn risk score (0–100), revenue at risk, time-to-churn estimate, and a prioritized intervention playbook. Built for CS leaders tired of losing accounts they could have saved.",
+    url: "https://2026-06-03-churnradar.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-03-churnradar",
+    tags: ["Customer Success", "AI", "Churn Prevention", "SaaS", "B2B"],
+    gradient: "from-red-500 to-rose-700",
+    screenshot: "/screenshots/2026-06-03-churnradar.png",
+  },
+  {
     id: "2026-06-02-stackwatch",
     date: "2026-06-02",
     name: "StackWatch",
