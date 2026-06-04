@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-04-skilltrace",
+    name: "SkillTrace",
+    date: "2026-06-04",
+    description: "AI-resistant competency verification. Adaptive Socratic assessments that reveal genuine skill — not AI-assisted work — for hiring teams and educators.",
+    url: "https://2026-06-04-skilltrace.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-04-skilltrace",
+    tags: ["EdTech", "HR Tech", "AI Assessment", "B2B SaaS"],
+    gradient: "from-indigo-500 to-violet-600",
+    screenshot: "/screenshots/2026-06-04-skilltrace.png",
+  },
+  {
     id: "2026-06-01-marginmap",
     name: "MarginMap",
     date: "2026-06-01",
