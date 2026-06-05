@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-05-inferacost",
+    name: "InferaCost",
+    date: "2026-06-05",
+    description: "AI inference spend intelligence. Track, attribute, and optimize costs across OpenAI, Anthropic, Gemini, and 5 more providers — per model, per feature, per user. Includes live dashboard and cost calculator.",
+    url: "https://2026-06-05-inferacost.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-05-inferacost",
+    tags: ["AI Ops", "FinOps", "Developer Tools", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-06-05-inferacost.png",
+  },
+  {
     id: "2026-06-04-skilltrace",
     name: "SkillTrace",
     date: "2026-06-04",
