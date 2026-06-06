@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-06-patchsense",
+    name: "PatchSense",
+    date: "2026-06-06",
+    description: "AI code quality intelligence for engineering teams. Paste any GitHub PR URL and get an instant risk score, AI pattern detection, and review recommendations. Know if AI-generated code is making your codebase more fragile.",
+    url: "https://2026-06-06-patchsense.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-06-patchsense",
+    tags: ["DevTools", "AI Safety", "Code Quality", "B2B SaaS"],
+    gradient: "from-violet-500 to-indigo-600",
+    screenshot: "/screenshots/2026-06-06-patchsense.png",
+  },
+  {
     id: "2026-06-05-inferacost",
     name: "InferaCost",
     date: "2026-06-05",
