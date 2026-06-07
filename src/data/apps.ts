@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-07-regpath",
+    name: "RegPath",
+    date: "2026-06-07",
+    description: "AI compliance navigator for product teams. Answer a short questionnaire about your AI product and instantly get a prioritized compliance roadmap covering the EU AI Act, GDPR, US NIST AI RMF, FDA, and more. Know exactly what your product needs to stay compliant.",
+    url: "https://2026-06-07-regpath.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-07-regpath",
+    tags: ["Compliance", "AI Regulation", "LegalTech", "B2B SaaS"],
+    gradient: "from-violet-500 to-purple-700",
+    screenshot: "/screenshots/2026-06-07-regpath.png",
+  },
+  {
     id: "2026-06-06-patchsense",
     name: "PatchSense",
     date: "2026-06-06",
