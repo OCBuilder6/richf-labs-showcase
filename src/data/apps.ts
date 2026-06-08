@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-08-shiftiq",
+    name: "ShiftIQ",
+    date: "2026-06-08",
+    description: "AI career resilience intelligence for software engineers. Select your role, stack, and experience level — get a personalized AI displacement risk score (0–100), skill-by-skill breakdown, and a prioritized upskilling roadmap with salary benchmarks. Know exactly where you stand before the shift hits.",
+    url: "https://2026-06-08-shiftiq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-08-shiftiq",
+    tags: ["Career Tech", "AI Risk", "Engineer Tools", "Productivity", "SaaS"],
+    gradient: "from-slate-600 to-zinc-800",
+    screenshot: "/screenshots/2026-06-08-shiftiq.png",
+  },
+  {
     id: "2026-06-07-regpath",
     name: "RegPath",
     date: "2026-06-07",
