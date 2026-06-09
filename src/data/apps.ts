@@ -12,6 +12,17 @@ export interface App {
 
 export const apps: App[] = [
   {
+    id: "2026-06-09-scopeiq",
+    date: "2026-06-09",
+    name: "ScopeIQ",
+    description: "Carbon & ESG reporting platform for mid-market companies navigating CSRD, SEC climate disclosure rules, and investor ESG demands. Interactive Scope 1, 2 & 3 carbon calculator using real DEFRA emission factors — get your annual CO₂e footprint, benchmark against industry averages, and generate audit-ready reports in hours, not months.",
+    url: "https://2026-06-09-scopeiq.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-09-scopeiq",
+    tags: ["Climate Tech", "ESG", "CSRD Compliance", "Carbon Accounting", "B2B SaaS"],
+    gradient: "from-emerald-500 to-teal-700",
+    screenshot: "/screenshots/2026-06-09-scopeiq.png",
+  },
+  {
     id: "2026-06-08-shiftiq",
     name: "ShiftIQ",
     date: "2026-06-08",
