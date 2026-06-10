@@ -1146,6 +1146,17 @@ export const apps: App[] = [
     screenshot: "/screenshots/2026-06-03-churnradar.png",
   },
   {
+    id: "2026-06-10-shadowai",
+    date: "2026-06-10",
+    name: "ShadowAI",
+    description: "AI Shadow IT detection and governance for IT and security teams. Discover every unauthorized AI tool in your org, score security and compliance risk, and enforce policy — before shadow AI becomes a breach.",
+    url: "https://2026-06-10-shadowai.vercel.app",
+    repoUrl: "https://github.com/OCBuilder6/2026-06-10-shadowai",
+    tags: ["Security", "AI Governance", "IT", "Compliance", "SaaS"],
+    gradient: "from-indigo-500 to-blue-700",
+    screenshot: "/screenshots/2026-06-10-shadowai.png",
+  },
+  {
     id: "2026-06-02-stackwatch",
     date: "2026-06-02",
     name: "StackWatch",
